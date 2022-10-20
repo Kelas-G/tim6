@@ -1,0 +1,29 @@
+## Tugas Pemrograman Web Dasar
+#### Tim 6
+
+Nama Kelompok:
+- [Abdurrahman Al Ghifari](https://github.com/abdurrahmanalghifari)
+- [Firdiyansyah](https://github.com/Firdiyansyah)
+- Ichwan Riady Fajryanro
+- [Lutfi Adriasnayah Subagia](https://github.com/Lutfi-adr)
+- Miranti Ibrahim
+- [Nur Irfan](https://github.com/NurIrfan21)
+
+dengan tema Undangan Online
+
+- Judul dengan video background ✅
+- Time countdown ✅
+- Tempat / Lokasi wisuda ✅
+- Waktu dan tempat ✅
+- Susunan Acara ✅
+- Gallery foto 
+- Protokol Kesehatan (butuh penyesuaian icon)
+- Motto perorangan ( foto anggota kelompok)
+- Buku Tamu ✅
+- Sekilas Kampus
+
+note PR :
+- koreksi tipe dan warna font
+- koreksi foto pendukung
+- koreksi gallery foto
+
