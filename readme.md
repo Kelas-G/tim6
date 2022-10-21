@@ -11,21 +11,17 @@ Nama Kelompok:
 
 dengan tema Undangan Online
 
-- Judul dengan video background ✅
-- Time countdown ✅
-- Tempat / Lokasi wisuda ✅
-- Waktu dan tempat ✅
-- Susunan Acara ✅
+- Judul dengan video background 
+- Time countdown 
+- Tempat / Lokasi wisuda 
+- Waktu dan tempat 
+- Susunan Acara 
 - Gallery foto 
 - Protokol Kesehatan (butuh penyesuaian icon)
 - Motto perorangan ( foto anggota kelompok)
-- Buku Tamu ✅
+- Buku Tamu 
 - Sekilas Kampus
 
-note PR :
-- koreksi tipe dan warna font
-- koreksi foto pendukung
-- koreksi gallery foto
 
 
 ##### Untuk pengembangan menggunakan
