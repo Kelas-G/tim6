@@ -13,14 +13,13 @@ dengan tema Undangan Online
 
 - Judul dengan video background 
 - Time countdown 
-- Tempat / Lokasi wisuda 
-- Waktu dan tempat 
-- Susunan Acara 
+- Alamat lokasi wisuda 
+- Waktu dan Tempat 
+- Susunan acara 
 - Gallery foto 
-- Protokol Kesehatan (butuh penyesuaian icon)
-- Motto perorangan ( foto anggota kelompok)
+- Protokol Kesehatan ( butuh penyesuaian icon )
+- Motto perorangan ( foto anggota kelompok )
 - Buku Tamu 
-- Sekilas Kampus
 
 
 
