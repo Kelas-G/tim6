@@ -4,9 +4,9 @@
 Nama Kelompok:
 - [Abdurrahman Al Ghifari](https://github.com/abdurrahmanalghifari)
 - [Firdiyansyah](https://github.com/Firdiyansyah)
-- Ichwan Riady Fajryanro
+- [Ichwan Riady Fajryanro](https://github.com/Ichwanrf)
 - [Lutfi Adriasnayah Subagia](https://github.com/Lutfi-adr)
-- Miranti Ibrahim
+- [Miranti Ibrahim](https://github.com/Miranti08)
 - [Nur Irfan](https://github.com/NurIrfan21)
 
 dengan tema Undangan Online
