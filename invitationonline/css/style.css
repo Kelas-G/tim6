@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   line-height: 40px;
-  font-family: "Sacramento", Arial, serif;
+  font-family:  Arial, serif;
 }
 .wsd-nav a {
   padding: 5px 10px;
@@ -844,7 +844,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #fff;
-  font-family: "Sacramento", Arial, serif;
+  font-family:  Arial, serif;
 }
 .wsd-cover .display-tc h1,
 .wsd-cover .display-tc h2 {
@@ -881,7 +881,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #fff;
-  font-family: "Sacramento", Arial, serif;
+  font-family:  Arial, serif;
 }
 .wsd-cover .display-tc h2 {
   font-size: 60px;
@@ -889,7 +889,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #fff;
-  font-family: "Sacramento", Arial, serif;
+  font-family:  Arial, serif;
 }
 @media screen and (max-width: 480px) {
   #wsd-header .display-tc h2,
@@ -899,7 +899,7 @@ form label {
       line-height: 1.5;
       font-weight: bold;
       color: #fff;
-      font-family: "Sacramento", Arial, serif;
+      font-family:  Arial, serif;
     }
   .wsd-cover .display-tc h2 {
     font-size: 16px;
@@ -1105,7 +1105,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #002249;
-  font-family: "Sacramento", Arial, serif;
+  font-family:  Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .wsd-heading h2 {
@@ -1450,7 +1450,8 @@ form label {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: #00ccff;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 4px;
