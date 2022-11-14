@@ -1,11 +1,37 @@
+<!-- Merupakan file format file pada html  -->
 <!DOCTYPE html>
 
+
+<!-- 
+	
+		Tag <HEAD> tugasnya adalah memberikan informasi tentang dokumen, maksudnya didalam tag <head> 
+	kita bisa menambahkan tag- tag yang biasanya 
+	digunakan untuk memberikan informasi berupa penulis, judul dokumen, kata kunci pada dokumen 
+	dan masih banyak lagi informasi yang bisa di tambahkan pada tag ini. 
+
+	contohnya menyisipkan file css, style, js, dan beberapa meta pendukung pada html.
+
+-->
 <head>
 	<meta charset="utf-8">
-	<title>Tim 6 - Online Invitation Graduate Page</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 
 
-	<!-- html ini memerlukan koneksi internet untuk beberapa assets nya -->
+		 berikut ini merupakan Title tag adalah judul dari sebuah halaman atau website. Elemen ini mewakili isi konten, 
+		 sehingga calon pengunjung dapat mengetahui inti informasi sebuah konten. 
+		 Biasanya, Anda menemukan title tag sebagai judul pada daftar hasil pencarian.
+
+	 -->
+	<title>Tim 6 - Online Invitation Graduate Page</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 
+		html ini memerlukan koneksi internet untuk beberapa assets nya 
+	-->
+	<!-- 
+
+		berikut ini contoh cara penyisipan style dan js
+
+	 -->
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet'
 		type='text/css'>
@@ -30,8 +56,24 @@
 	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 </head>
 
+
+<!-- 
+
+	element Body merupakan bagian tubuh atau isi dari sebuah dokumen HTML. Yaitu tag HTML yang biasanya 
+digunakan untuk membuka dan menutup semua isian yang terdapat di dalam dokumen HTML, 
+seperti text, grafik, link, dan lain-lain. 
+
+-->
 <body>
 	<!-- Start Modal PopUp Informasi Kelompok -->
+	<!-- 
+		
+		dibawah ini element <Div> pada html yaitu salah satu elemen yang berguna untuk membuat sebuah container atau 
+		wadah elemen dan memudahkan untuk mengelompokan elemen pada HTML. Div kepanjangan dari division, 
+		div sendiri sering disebut layout pada halaman web. Biasanya div sering ditambahkan atribut id 
+		atau class untuk memudahkan style pada css dan event pada javascript. 
+
+	-->
 	<div class="modal fade" id="myModal" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -63,8 +105,21 @@
 	</div>
 	<!-- End Modal PopUp Informasi Kelompok -->
 
+	<!-- 
+	Elemen <header> pada halaman HTML diletakkan pada bagian paling atas. 
+		Bagian ini dapat berisi logo, nama website, 
+		dan menu navigasi yang terdiri atas deretan tautan / link. 
+		Jika pengunjung memasuki menu tersebut, akan diarahkan menuju 
+		halaman lain yang masih dalam ruang lingkup halaman web tersebut
+
+		beberapa yang kami masukkan diantaranya embed video untuk background cover, judul cover,
+		waktu hitung mundur, link untuk menambah ke kalendar.
+
+	-->
+	
 	<!-- Start Cover Video Background -->
 	<header id="wsd-header" class="wsd-cover" role="banner">
+
 		<video src="media/videoplayback.mp4" class="vid-bg" autoplay loop muted></video>
 		<div class="overlay"></div>
 		<div class="container">
@@ -86,6 +141,12 @@
 	</header>
 	<!-- End Cover Video Background -->
 
+	<!-- 
+		
+		pada baris ini terdapat info tempat acara 
+	
+	-->
+
 	<!-- Start Venue Section -->
 	<div id="wsd-venue">
 		<div class="container">
@@ -100,6 +161,14 @@
 		</div>
 		<!-- End Venue Section -->
 
+		<!-- 
+			pada bagian ini merupakan embed iframe google maps. yang merupakan titik lokasi tempat acara.
+
+			Iframe pada HTML digunakan untuk membuat sebuah bingkai. Elemen <iframe> sering digunakan untuk 
+			menyisipkan konten dari situs luar, contohnya memasukkan widget atau aplikasi tertentu, 
+			dan memasukkan video dari sumber lain.
+
+		-->
 		<!-- Start Embed Iframe Google Maps -->
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.4495814263844!2d107.61762857857835!3d-6.902661239861089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c5e8866e5%3A0x37be7ac9d575f7ed!2sGedung%20Sate!5e0!3m2!1sid!2sid!4v1666232207922!5m2!1sid!2sid"
@@ -107,6 +176,11 @@
 			referrerpolicy="no-referrer-when-downgrade"></iframe>
 		<!-- End Embed Iframe Google Maps -->
 
+
+		<!-- 
+			
+		Bagian ini berisi susunan acara yang akan berlangsung.
+		-->
 		<!-- Start Master Event Schedule -->
 		<div id="wsd-event" class="wsd-bg" style="background-image:url(images/img_bg_3.jpg);">
 			<div class="overlay"></div>
@@ -174,6 +248,12 @@
 		</div>
 		<!-- End Master Event Schedule -->
 
+
+		<!-- 
+			
+			pada bagian ini detail susunan acara, dan ini dibuat menggunakan table pada html
+
+		-->
 		<!-- Start List Table Agenda -->
 		<div id="wsd-agenda">
 			<div class="container">
@@ -186,6 +266,20 @@
 							MINGGU, 28 NOVEMBER 2024</p>
 					</div>
 				</div>
+				<!-- 
+
+					- Elemen <table> Mendefinisikan sebuah tabel
+					- Elemen <tr> kepanjangan dari Table Row untuk membuat baris tabel
+					- Elemen <td> Kepanjangan dari Table Data untuk membuat sebuah isi tabel
+					- Elemen <th> Kepanjangan dari Table Heading untuk membuat sebuah isi judul tabel
+					- Elemen <caption> untuk mendefinisikan sebuah judul tabel
+					- Elemen <colgroup> Menentukan grup yang terdiri dari satu atau beberapa kolom
+					- Elemen <col> Menentukan properti kolom untuk setiap kolom dalam elemen
+					- Elemen <thead> Mengelompokkan konten header dalam sebuah tabel
+					- Elemen <tbody> Mengelompokkan konten isi dalam tabel
+					- Elemen <tfoot> Mengelompokkan konten footer dalam sebuah tabel
+
+				  -->
 				<table class="table" style="font-family: Arial, serif;">
 					<tr style="font-weight: bold;background-color: #CCC; color: #002249;">
 						<th>No</th>
@@ -290,6 +384,11 @@
 		</div>
 		<!-- End List Table Agenda -->
 
+		<!-- 
+			
+			pada section ini health protocol dimana terdapat informasi, peraturan bagi peserta acara
+		
+		-->
 		<!-- Start Health Protocol Section  -->
 		<div id="wsd-counter" class="wsd-bg wsd-counter" style="background-image:url(images/img_bg_5.jpg);">
 			<div class="overlay"></div>
@@ -298,6 +397,12 @@
 				<div class="display-t">
 
 					<div class="display-tc">
+						<!--
+							col-md-* merupakan class prefix yang digunakan untuk membagi baris pada ukuran lebih besar 
+							atau samadengan 992px atau medium.
+
+							dan berikut beberapa contoh kode untuk menampilkan gambar yaitu <img src=* 
+						 -->
 						<div class="col-md-8 col-md-offset-2 text-center wsd-heading animate-box">
 							<h2 style="font-size: 60px; margin-bottom:0px; padding-top: 55px; ">Health Protocol</h2>
 							<p style="color: #FFF;">Keep our ceremony safe!</p>
@@ -349,6 +454,7 @@
 		</div>
 	</div>
 	<!-- End Health Protocol Section  -->
+
 
 	<!-- Start Gallery Section  -->
 	<div id="wsd-gallery" class="wsd-section-gray">
@@ -435,6 +541,13 @@
 				<div class="col-md-10 col-md-offset-1">
 					<form id="PassCode" class="form-inline">
 						<div class="col-md-4 col-sm-4">
+							<!-- 
+
+								dibawah ini terdapat elemen tag <input> merupakan tag pada HTML yang digunakan untuk menciptakan 
+								bidang formulir yang memungkinkan pengguna dalam memasukkan entry data. HTML elemen tag <input>
+								memiliki jenis dan bentuk yang bervariasi sesuai dengan kebutuhan dan nilai data yang terkandung di dalamnya.
+
+							 -->
 							<div class="form-group">
 								<label for="kodeunik" class="sr-only">Pass Code</label>
 								<input style="text-transform: uppercase;" type="kodeunik" class="form-control"
@@ -448,6 +561,10 @@
 									placeholder="Name">
 							</div>
 						</div>
+						<!-- 
+							berikut ini merupakan onclick adalah atribut HTML untuk menentukan aksi saat event klik pada sebuah elemen. 
+							Atribut ini bisa diisi dengan nama fungsi atau ekspresi javascript.
+						 -->
 						<div class="col-md-4 col-sm-4">
 							<button type="submit" class="btn btn-default btn-block" onclick="submitFunction()">I am
 								Attending</button>
