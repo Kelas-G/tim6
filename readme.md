@@ -3,7 +3,7 @@
 
 - [Abdurrahman Al Ghifari](https://github.com/abdurrahmanalghifari)
 - [Firdiyansyah](https://github.com/Firdiyansyah)
-- [Ichwan Riady Fajryanro](https://github.com/Ichwanrf)
+- [Ichwan Riady Fajryanto](https://github.com/Ichwanrf)
 - [Lutfi Adriansyah Subagia](https://github.com/Lutfi-adr)
 - [Miranti Ibrahim](https://github.com/Miranti08)
 - [Nur Irfan](https://github.com/NurIrfan21)
@@ -20,3 +20,4 @@
 - Graduated gallery
 - Daftar hadir
 - Buku Tamu
+- Daftar FTIK
