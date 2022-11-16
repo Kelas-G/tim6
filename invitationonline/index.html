@@ -1,4 +1,4 @@
-<!--   -->
+<!-- part 1  -->
 <!-- 
 	 Merupakan file format file pada html  
 	 Tag <!DOCTYPE html> adalah sebuah deklerasi atau untuk mengidentifikasi jenis 
@@ -62,7 +62,8 @@
 </head>
 
 
-<!--  -->
+<!-- part 2  -->
+
 <!-- 
 
 	element Body merupakan bagian tubuh atau isi dari sebuah dokumen HTML. Yaitu tag HTML yang biasanya 
@@ -124,6 +125,8 @@ seperti text, grafik, link, dan lain-lain.
 		</div>
 	</div>
 	<!-- End Modal PopUp Informasi Kelompok -->
+
+<!-- part 3 -->
 
 	<!-- 
 	Elemen <header> pada halaman HTML diletakkan pada bagian paling atas. 
@@ -190,7 +193,7 @@ seperti text, grafik, link, dan lain-lain.
 		<!-- End Venue Section -->
 
 		<!-- 
-			pada bagian ini merupakan embed iframe google maps. yang merupakan titik lokasi tempat acara.
+			contoh pada bagian ini merupakan embed iframe google maps. yang merupakan titik lokasi tempat acara.
 
 			Iframe pada HTML digunakan untuk membuat sebuah bingkai. Elemen <iframe> sering digunakan untuk 
 			menyisipkan konten dari situs luar, contohnya memasukkan widget atau aplikasi tertentu, 
@@ -308,8 +311,10 @@ seperti text, grafik, link, dan lain-lain.
 					- Elemen <tfoot> Mengelompokkan konten footer dalam sebuah tabel
 
 				  -->
+				  <!-- berikut ini contoh table menggunakan style font berjenis arial, serif -->
 				<table class="table" style="font-family: Arial, serif;">
-					<tr style="font-weight: bold;background-color: #CCC; color: #002249;">
+					<!-- berikut ini contoh table row <tr> menggunakan style font bold, latar belakang color abu-abu dan warna text putih  -->
+					<tr style="font-weight: bold;background-color: grey; color: white;">
 						<th>No</th>
 						<th>Waktu</th>
 						<th>Uraian Kegiatan</th>
@@ -412,12 +417,15 @@ seperti text, grafik, link, dan lain-lain.
 		</div>
 		<!-- End List Table Agenda -->
 
+<!-- part 4 -->
+
 		<!-- 
 			
 			pada section ini health protocol dimana terdapat informasi, peraturan bagi peserta acara
-		
+
 		-->
 		<!-- Start Health Protocol Section  -->
+	    <!-- berikut ini div class wsd counter menggunakan style latar belakang dengan image  -->
 		<div id="wsd-counter" class="wsd-bg wsd-counter" style="background-image:url(images/img_bg_5.jpg);">
 			<div class="overlay"></div>
 			<div class="container">
@@ -432,7 +440,14 @@ seperti text, grafik, link, dan lain-lain.
 							dan berikut beberapa contoh kode untuk menampilkan gambar yaitu <img src=* 
 						 -->
 						<div class="col-md-8 col-md-offset-2 text-center wsd-heading animate-box">
+							<!-- berikut ini bagian Health protocol dengan tag h2  -->
 							<h2 style="font-size: 60px; margin-bottom:0px; padding-top: 55px; ">Health Protocol</h2>
+							<!-- 
+								 element tag <p> menunjukkan sebuah Paragraph, atau paragraf sebuah teks. <p> element sebaiknya 
+								 tidak boleh digunakan apabila ada element lain yang lebih cocok untuk digunakan, 
+								 contohnya menggunakan <address> element, lebih tepat dibandingkan dengan <p> element 
+								 dalam sebuah informasi kontak penulis artikel (author).
+							 -->
 							<p style="color: #FFF;">Keep our ceremony safe!</p>
 						</div>
 						<div class="col-md-3 col-sm-6 animate-box">
@@ -555,6 +570,8 @@ seperti text, grafik, link, dan lain-lain.
 	</div>
 	<!-- End Gallery Section  -->
 
+<!-- part 5 -->
+	
 	<!-- Start Ticket Attending Section-->
 	<div id="wsd-started" class="wsd-bg" style="background-image:url(images/img_bg_4.jpg);">
 		<div class="overlay"></div>
@@ -605,6 +622,16 @@ seperti text, grafik, link, dan lain-lain.
 	<!-- End Ticket Attending Section -->
 
 	<!-- Start Guest Book Section -->
+
+	<!-- 
+
+		Berikut ini bagian buku tamu menggunakan 
+		elemen tag <input> merupakan tag pada HTML yang digunakan untuk menciptakan 
+		bidang formulir yang memungkinkan pengguna dalam memasukkan entry data. HTML elemen tag <input>
+		memiliki jenis dan bentuk yang bervariasi sesuai dengan kebutuhan dan nilai data yang terkandung di dalamnya.
+
+		
+	 -->
 	<div class="wsd-section wsd-section-gray ">
 		<div class="container">
 			<div class="row">
@@ -613,6 +640,11 @@ seperti text, grafik, link, dan lain-lain.
 					<form id="formGuestBook">
 						<div class="row form-group">
 							<div class="col-md-6">
+								<!-- 
+									Tag label dalam HTML berfungsi sebagai pelengkap keterangan untuk beberapa objek form 
+									seperti radio atau checkbox. Selain memberikan keterangan,
+									tag label juga memudahkan penggunan dalam memasukkkan data (membuat form menjadi user friendly).
+								 -->
 								<label for="fname">First Name</label>
 								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
 							</div>
@@ -645,6 +677,10 @@ seperti text, grafik, link, dan lain-lain.
 							</div>
 						</div>
 						<div class="form-group">
+							<!-- 
+								berikut merupakan tag input dengan type tombol dan dapat di integrasikan ke js
+								ada submit function dan reset function bisa dilihat script js nya dibagian paling bawah.
+							-->
 							<input type="button" value="Send Message" class="btn btn-primary"
 								onclick="submitFunction()">
 
@@ -724,7 +760,7 @@ seperti text, grafik, link, dan lain-lain.
 		</div>
 	</div>
 	<!-- End Guest Book Section  -->
-
+<!-- part 6 -->
 	<!-- Start Fakultas Section  -->
 	<div id="wsd-counter" class="wsd-bg wsd-counter" style="background-image:url(images/img_bg_5.jpg);">
 		<div class="overlay"></div>
@@ -832,7 +868,7 @@ seperti text, grafik, link, dan lain-lain.
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-	<!-- Script JS GuestBook-->
+	<!-- Script JS GuestBook ( Buku Tamu ) -->
 	<script>
 		function resetFunction() {
 			document.getElementById("formGuestBook").reset();
