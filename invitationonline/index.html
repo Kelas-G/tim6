@@ -893,23 +893,17 @@ seperti text, grafik, link, dan lain-lain.
 	</script>
 	<!-- script JS untuk countdown timer  -->
 	<script>
-		var d = new Date(new Date().getTime() + 2050 * 120 * 120 * 2000);
-
-		// default example
-		simplyCountdown('.simply-countdown-one', {
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate()
-		});
-
-		//jQuery example
-		$('#simply-countdown-losange').simplyCountdown({
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate(),
-			enableUtc: false
-		});
-
+	    var targetDate = new Date("November 30, 2024 00:00:00").getTime();
+	
+	    simplyCountdown('.simply-countdown-one', {
+	        year: 2024,
+	        month: 11,
+	        day: 30,
+	        hours: 0,
+	        minutes: 0,
+	        seconds: 0
+	    });
+	
 	</script>
 
 </body>
